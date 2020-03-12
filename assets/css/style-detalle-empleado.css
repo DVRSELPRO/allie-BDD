@@ -1,0 +1,23 @@
+.card {
+    border: 1px solid #ccc;
+}
+.form-control-static {
+	min-height: 34px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-bottom: 0;
+}
+.radio-left{padding-left: 25px;}
+.bold{font-weight: bold;}
+/* remove the spinner */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+.group-icons-edit-remove i{ 
+    color: #156cf3;
+    
+}
